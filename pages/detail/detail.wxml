@@ -1,0 +1,119 @@
+<view class="container">
+  <!--top_img-->
+  <swiper class="swiper" indicator-dots='true' indicator-color='#ffffff' indicator-active-color='#c0c0c0' autoplay='true' interval='3000'>
+    <swiper-item>
+      <image src='http://shop.wfdsfc.com/images/detail1.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='http://shop.wfdsfc.com/images/detail2.jpg'></image>
+    </swiper-item>
+  </swiper>
+  <image class="car_icon" src="http://shop.wfdsfc.com/images/car.png"></image>
+  <!--top_img_end-->
+  <!--product_info-->
+  <view class='info'>
+    <!--title-->
+    <view class='info_title'>
+      <text>性激素六项</text>
+      <image src="http://shop.wfdsfc.com/images/share.png"></image>
+    </view>
+    <!--price/sock===-->
+    <view class="info_num">
+      <text style='color:red;font-weight: bolder;font-size:38rpx;'>￥160</text>
+      <text style='text-decoration: line-through;'>￥300</text>
+      <text>销量：15件</text>
+      <text>库存：100件</text>
+    </view>
+  </view>
+  <!--product_info_end-->
+
+  <!--line-->
+  <view></view>
+  <!--line_end-->
+
+  <!--product_detail-->
+  <view class='detail_box'>
+    <view class=" norms">
+      <text style='color:#3b3939;font-size:48rpx;'>选择</text>
+      <text style='font-size:35rpx;'>规格</text>
+      <text style='font-size:48rpx;margin-left:60%'>></text>
+    </view>
+
+    <view class="detail">
+      <view class='detail_title'>
+        <view class='detail_title_name'>商品详情</view>
+      </view>
+      <view class='detail_info'>
+        fadfadsfadsfadsf
+      </view>
+    </view>
+  </view>
+  <!--product_detail_end-->
+
+  <!--bottom-->
+  <view class='bottom'>
+    <!--home-->
+    <view class='home'>
+      <image src="http://shop.wfdsfc.com/images/home.png"></image>
+      <text>首页</text>
+    </view>
+
+    <!--collect-->
+    <view class='collect'>
+      <image src="http://shop.wfdsfc.com/images/collect_no.png"></image>
+      <text>收藏</text>
+    </view>
+
+    <!--add-->
+    <view class='add'>
+      <text>加入购物车</text>
+    </view>
+
+    <!--buy-->
+    <view class='buy'>
+      <text>立即购买</text>
+    </view>
+  </view>
+  <!--bottom_end-->
+
+
+  <!--shopping_box-->
+  <view class='shopping_box' style='display:none;'>
+    <image class='top_img' src='http://shop.wfdsfc.com/images/detail1.jpg'></image>
+    <view class='shopping_content'>
+      <!--top-->
+      <view class="shopping_top">
+        <view class='shopping_right'>×</view>
+        <view class="shopping_left">
+          <text style='color:red;font-weight: bold'>￥160</text>
+          <text>库存100件</text>
+        </view>
+      </view>
+      <!--top_end-->
+
+      <!--guige-->
+      <view class="guige">
+        <text>规格</text>
+        <view class="choose_type">默 认</view>
+      </view>
+      <!--guige_end-->
+
+      <!--num-->
+      <view class='num_box'>
+        <view class="num_title"><text>数量</text></view>
+
+        <view class="num_group">
+          <view class="num_minus">-</view>
+          <view class="num">
+            <input type="text" value="1" placeholder-class="center" />
+          </view>
+          <view class="num_add">+</view>
+        </view>
+
+      </view>
+      <!--num_end-->
+
+    </view>
+  </view>
+  <!--shopping_box_end-->
+</view>
